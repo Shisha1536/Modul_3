@@ -1,0 +1,99 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+.main-div {
+    background-image: url(../img/the-interior-has-a-armchair-on-empty-white-wall-background-3d-rendering\ 1.png);
+    display: flex;
+    width: 1400px;
+    height: 860px;
+    padding: 20px;
+    justify-content: space-between;
+}
+.main__form {
+    margin: auto 80px ;
+    background-color: #FFFFFF;
+    border-radius: 40px;
+    padding: 40px 40px 80px 40px;
+    display: flex;
+    flex-direction: column;
+}
+.main__form_h1 {
+    font-size: 55px;
+}
+.main__form_sing-up {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sing-up_h3 {
+    font-size: 21px;
+}
+.sing-up_span,
+.sing-up_lable-a {
+    color: #779341;
+}
+.sing-up_lable {
+    font-size: 13px;
+    color: #8D8D8D;
+}
+.sing-up_lable {
+    display: flex;
+    flex-direction: column;
+}
+.main__form_block-messenger {
+    display: flex;
+    margin-top: 40px;
+}
+.block-messenger__btn-google {
+    background-color: #E9F1FF;
+    color: #4285F4;
+    border: 1px solid #E9F1FF;
+    border-radius: 5px;
+    width: 298px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.block-messenger__btn-apple,
+.block-messenger__btn-facebook {
+    width: 60px;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+}
+#email,
+#password {
+    display: flex;
+    flex-direction: column;
+    width: 431px;
+    height: 57px;
+    border:  1px solid #ADADAD;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+.main__form_label-email,
+.main__form_label-password {
+    font-size: 16px;
+    margin-top: 30px;
+}
+.main__form_for-password {
+    text-align: end;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.main__form_block-btn {
+    display: flex;
+    justify-content: end;
+}
+.main__form_btn-sign-in {
+    background-color: #779341;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    width: 236px;
+    height: 54px;
+    margin-top: 50px;
+}
