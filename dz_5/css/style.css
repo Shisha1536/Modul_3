@@ -12,7 +12,7 @@ main {
 }
 .main__form {
     margin: auto 80px ;
-    background-color: #FFFFFF;
+    background-color: #ffffffe5;
     border-radius: 40px;
     padding: 40px 40px 80px 40px;
     display: flex;
@@ -44,6 +44,7 @@ main {
 .main__form_block-messenger {
     display: flex;
     margin-top: 40px;
+    justify-content: space-between;
 }
 .block-messenger__btn-google {
     background-color: #E9F1FF;
@@ -56,6 +57,7 @@ main {
     justify-content: center;
     align-items: center;
     gap: 30px;
+    cursor: pointer;
 }
 .block-messenger__btn-apple,
 .block-messenger__btn-facebook {
@@ -63,9 +65,12 @@ main {
     background-color: #FFFFFF;
     border: 1px solid #FFFFFF;
     border-radius: 5px;
+    cursor: pointer;
 }
 #email,
-#password {
+#password,
+#user,
+#contack {
     display: flex;
     flex-direction: column;
     width: 431px;
@@ -73,9 +78,12 @@ main {
     border:  1px solid #ADADAD;
     border-radius: 10px;
     padding-left: 20px;
+    margin-top: 20px;
 }
 .main__form_label-email,
-.main__form_label-password {
+.main__form_label-password,
+.block-user-contack__label-user,
+.block-user-contack__label-contack {
     font-size: 16px;
     margin-top: 30px;
 }
@@ -96,4 +104,64 @@ main {
     width: 236px;
     height: 54px;
     margin-top: 50px;
+    cursor: pointer;
+}
+.block-user-contack__block-user,
+.block-user-contack__block-contack {
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+}
+.main__block-user-contack {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+#user,
+#contack {
+    width: 190px;
+}
+@media screen and (max-width: 375px) {
+    main {
+        display: block;
+    }
+    .main-div {
+        width: 375px;
+    }
+    .main__form {
+        margin: 0;
+        margin-top: 40px;
+        padding: 20px 20px 60px 20px;
+        width: 286px;
+
+    }
+    .main-div {
+        display: block;
+    }
+    .sing-up_h3 {
+        font-size: 16px;
+    }
+    .main__form_h1 {
+        font-size: 40px;
+    }
+    .block-messenger__btn-google {
+        width: 180px;
+        height: 55px;
+        gap: 10px;
+    }
+    .block-messenger__btn-apple, 
+    .block-messenger__btn-facebook {
+        width: 36px;
+    }
+    #email, 
+    #password {
+        width: 262px;
+    }
+    .main__form_btn-sign-in {
+        width: 149px;
+    }
+    #user,
+    #contack {
+        width: 110px;
+    }
 }
