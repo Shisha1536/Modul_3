@@ -1,0 +1,161 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+.main-div {
+    display: flex;
+    width: 1400px;
+    height: 860px;
+    padding: 20px;
+}
+.main__img {
+    display: flex;
+    align-items: center;
+}
+.main__form {
+    border: 1px solid #878787;
+    margin: auto 0 ;
+    background-color: #ffffffe5;
+    border-radius: 10px;
+    padding: 30px 30px 60px 30px;
+    display: flex;
+    flex-direction: column;
+}
+.main__form_additional-functions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.main__form_h1 {
+    font-size: 31px;
+    margin-top: 30px;
+}
+.main__form_p {
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.main__form_h3 {
+    font-size: 25px;
+}
+.sing-up_span,
+.sing-up_lable-a {
+    color: #779341;
+}
+.sing-up_lable {
+    font-size: 13px;
+    color: #8D8D8D;
+}
+.sing-up_lable {
+    display: flex;
+    flex-direction: column;
+}
+#email,
+#password,
+#user,
+#contack {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 57px;
+    border:  1px solid #ADADAD;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+.main__form_label-email,
+.main__form_label-password,
+.block-user-contack__label-user,
+.block-user-contack__label-contack {
+    font-size: 16px;
+    margin-top: 30px;
+}
+.additional-functions__lable {
+    font-size: 12px;
+}
+.main__form_for-password {
+    font-size: 12px;
+    text-decoration: none;
+    color: #4D4D4D;
+}
+.main__form_block-btn {
+    display: flex;
+    justify-content: end;
+}
+.main__form_btn-sign-in {
+    background-color: #000;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    height: 54px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.block-user-contack__block-user,
+.block-user-contack__block-contack {
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+}
+.main__block-user-contack {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+#user,
+#contack {
+    width: 190px;
+}
+#Rememebr {
+    cursor: pointer;
+}
+.main__form_register {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    font-size: 16px;
+}
+.main__form_register-p {
+    color: #7D7D7D;
+}
+.main__form_register-a {
+    text-decoration: none;
+    color: #000;
+}
+@media screen and (max-width: 375px) {
+    main {
+        display: block;
+    }
+    .main-div {
+        width: 375px;
+    }
+    .main__form {
+        margin: 0;
+        margin-top: 40px;
+        padding: 20px 20px 60px 20px;
+        width: 286px;
+
+    }
+    .main-div {
+        display: block;
+    }
+    .sing-up_h3 {
+        font-size: 16px;
+    }
+    .main__form_h1 {
+        font-size: 40px;
+    }
+    #email, 
+    #password {
+        width: 262px;
+    }
+    .main__form_btn-sign-in {
+        width: 149px;
+    }
+    #user,
+    #contack {
+        width: 110px;
+    }
+}
