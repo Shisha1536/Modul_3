@@ -39,22 +39,9 @@ main {
 .main__form_h3 {
     font-size: 25px;
 }
-.sing-up_span,
-.sing-up_lable-a {
-    color: #779341;
-}
-.sing-up_lable {
-    font-size: 13px;
-    color: #8D8D8D;
-}
-.sing-up_lable {
-    display: flex;
-    flex-direction: column;
-}
 #email,
 #password,
-#user,
-#contack {
+#user {
     display: flex;
     flex-direction: column;
     width: 400px;
@@ -64,10 +51,8 @@ main {
     padding-left: 20px;
     margin-top: 20px;
 }
-.main__form_label-email,
-.main__form_label-password,
-.block-user-contack__label-user,
-.block-user-contack__label-contack {
+.main__form_label-user,
+.main__form_label-password {
     font-size: 16px;
     margin-top: 30px;
 }
@@ -83,7 +68,7 @@ main {
     display: flex;
     justify-content: end;
 }
-.main__form_btn-sign-in {
+.main__form_btn-login {
     background-color: #000;
     color: #FFFFFF;
     border: none;
@@ -91,24 +76,6 @@ main {
     width: 100%;
     height: 54px;
     margin-top: 30px;
-    cursor: pointer;
-}
-.block-user-contack__block-user,
-.block-user-contack__block-contack {
-    display: flex;
-    flex-direction: column;
-    width: 47%;
-}
-.main__block-user-contack {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-}
-#user,
-#contack {
-    width: 190px;
-}
-#Rememebr {
     cursor: pointer;
 }
 .main__form_register {
